@@ -1,0 +1,29 @@
+.points-home{
+  padding-top:1em;
+
+
+  .points{
+    
+    h1{
+      text-align:center;
+      color: $font-color2;
+      font-family: 'Raleway', sans-serif;
+      font-size:1.5em;
+      text-align:center;
+      padding-top:2.5em;
+      padding-bottom:1.2em;
+      margin:auto;
+    }
+
+    p{
+      width:80%;
+      margin: auto;
+      text-align:center;
+      color: $font-color2;
+      font-family: 'Raleway', sans-serif;
+      text-align:center;
+      padding-top:1em;
+      padding-bottom:2em;
+    }
+  }
+}

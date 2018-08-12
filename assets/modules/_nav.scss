@@ -1,0 +1,172 @@
+/* ==|====================
+   Module/Box
+   ======================= */
+
+/*All devices and mobile phone*/
+
+.l_header{
+	/*position: fixed;*/
+	width: 100%;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color:$header-color;
+
+
+	/*flex: 0 0 auto;*/
+	/*z-index: 10;*/
+	/*height: 6em;*/
+        .icons{
+          // border:1px red solid;
+          display: flex;
+          justify-content: flex-end;
+          font-size:0.8em;
+          align-items: center;
+
+          &>.bars i{
+            font-size:1.5em;
+            color: $font-color4;
+          }
+
+          &>.bars i:hover{
+           color: rgba(0,0,0,0.1);
+          }
+
+          &>.favorites i{
+            padding-right:2em;
+            color: $font-color4;
+          }
+
+          &>.favorites i:hover{
+            color: $star-color;
+          }
+
+          &>.home i{
+            padding-right:2em;
+            color: $font-color4;
+          }
+
+          &>.home i:hover{
+            color: rgba(0,0,0,0.1);
+          }
+
+          &>.cart i{
+            padding-right:2em;
+            color: $font-color4;
+          }
+
+          &>.cart i:hover{
+            color: rgba(0,0,0,0.1);
+          }
+
+          &>.logout i{
+            padding-right:2em;
+            color: $font-color4;
+            display: none;
+          }
+
+          &>.logout i:hover{
+            color: rgba(0,0,0,0.1);
+          }
+
+        }
+
+        ul{
+           padding:0;
+           margin:0;
+           list-style-type: none;
+        }
+ 
+        .logo-left{
+          width: 8em;
+          padding-bottom:2em;
+          margin:0;
+          
+          img{
+            display:block;
+            width:100%;
+          }
+        }
+
+        .bars{
+           padding-right:0em;
+           color: $font-color2;
+        }
+
+        .nav{
+          flex: 0 0 100%;
+        	/*background-color: rgba(0,0,0,0.2);*/
+        	padding-bottom: 2em;
+                        
+          li a{
+            display: block;
+        	  color: $font-color3;
+        	  text-transform: uppercase;
+        	  text-decoration: none;
+        	  flex: 0 0 auto;
+            text-align: center;
+        	  font-family: $font1;
+        	  // font-weight: bold;
+            line-height:2em;
+            font-family: 'Raleway', sans-serif;
+          }
+
+          a:hover{
+        	  color: rgba(0,0,0,0.1);
+          }
+
+
+          li a i{
+        	  // color: $font-color1;
+        	  padding-right: 0.5em;
+        	  padding-top: 1em;
+        	  width: 2em;
+        	  font-size: 1em;
+          }
+        }
+}
+
+
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width : 40em) {
+.icons{
+  font-size:2em;
+}
+
+  .bars{
+    display: none;
+  }
+  
+  .nav{
+    display: flex !important;
+    /*border: 1px red solid;*/
+
+    li{
+      flex: 0 0 auto;
+      display:flex;
+      justify-content:space-between;
+      margin:auto;
+    }
+  }
+}
+
+
+
+
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width : 60em) {
+}
+
+
+
+/*for destop - inclusive*/
+
+@media only screen and (min-width : 80em) {
+}

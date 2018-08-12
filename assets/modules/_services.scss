@@ -1,0 +1,95 @@
+/*All devices and mobile phone*/
+
+.l_services{
+	padding-top:1em;
+
+
+	.container{
+    background-color:$bg-color;
+  
+
+    h1{
+   	  text-align:center;
+   	  color: $font-color3;
+   	  font-family: 'Raleway', sans-serif;
+   	  font-size:1.5em;
+   	  text-align:center;
+		  padding-top:2.5em;
+		  padding-bottom:1.2em;
+		  margin:auto;
+    }
+
+    p{
+	    width:80%;
+   	  margin: auto;
+   	  text-align:center;
+   	  color: $font-color3;
+   	  font-family: 'Raleway', sans-serif;
+   	  text-align:center;
+		  padding-top:1em;
+		  padding-bottom:5em;
+    }
+
+    img{
+    	padding-top:2em;
+      width:100%;
+    }
+  }
+}
+
+.top img{
+  width:100%;
+}
+
+// points page image
+.top1 img{
+  width:100%;
+  padding-top:10em;
+  padding-bottom:12em;
+}
+
+
+
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width : 40em) {
+
+
+  .section-group{
+    // border:1px red solid;
+    position:relative;
+    .body{
+      // border:1px green solid;
+    }
+    .l_services{
+      // border:1px yellow solid;
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+    }
+  }
+
+}
+
+
+
+/*for small tablet - exclusive - use with care*/
+
+@media only screen and (min-width : 40em) and (max-width : 59.99999em) {
+}
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width : 60em) {
+}
+
+
+
+/*for destop - inclusive*/
+
+@media only screen and (min-width : 80em) {
+}

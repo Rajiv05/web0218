@@ -1,0 +1,107 @@
+/*All devices and mobile phone*/
+
+.main-menu{
+	// padding-top:1em;
+
+  .menu-item{
+    // display:flex;
+
+    .image{
+      flex: 100%;
+      padding-bottom:1em;
+      img{
+        // display:block;
+        width:100%;
+        margin:auto;
+        padding-top:2em;
+      }
+    }
+
+    .info{
+      width:100%;
+      // margin-left: 1em;
+      display:flex;
+      flex-direction:column;
+
+    }
+  }
+
+
+	.description{
+    background-color:$bg-color;
+  }
+
+  .description-icons{
+    align-items: center;
+    width: 100%;
+  }
+ 
+}
+
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width : 40em) {
+
+  .main-menu{
+  // padding-top:1em;
+
+  .menu-item{
+    display:flex;
+
+    .image{
+      flex: 0 0 30%;
+      padding-bottom:2em;
+      img{
+        display:block;
+        width:100%;
+        padding-top:0em;
+      }
+    }
+
+    .info{
+      flex: 1 0 20%;
+      margin-left: 1em;
+      display:flex;
+      flex-direction:column;
+      max-height:auto;
+
+      .description{
+        flex: 1 0 auto;
+      }
+    }
+  }
+
+
+  .description{
+    background-color:$bg-color;
+  }
+
+  .description-icons{
+    align-items: center;
+    width: 100%;
+  }
+ 
+}
+}
+
+
+
+/*for small tablet - exclusive - use with care*/
+
+@media only screen and (min-width : 40em) {
+}
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width : 60em) {
+}
+
+
+
+/*for destop - inclusive*/
+
+@media only screen and (min-width : 80em) {
+}

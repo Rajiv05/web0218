@@ -1,0 +1,194 @@
+/*All devices and mobile phone*/
+
+.main-menu{
+  display: flex;
+  // flex-wrap:wrap;
+
+
+	.description{
+    background-color:$bg-color;
+  
+
+    h1{
+      width:90%;
+      margin:auto;
+   	  text-align:left;
+   	  color: $font-color3;
+   	  font-family: 'Raleway', sans-serif;
+   	  font-size:1.5em;
+		  padding-top:1em;
+		  margin:auto;
+    }
+
+    p{
+      width:90%;
+      margin:auto;
+   	  text-align:left;
+   	  color: $font-color3;
+   	  font-family: 'Raleway', sans-serif;
+   	  text-align:left;
+		  padding-top:0.5em;
+		  padding-bottom:4em;
+      font-size:0.8em;
+    }
+  }
+
+    .description-icons{
+      color: $font-color4;
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: space-between;
+      padding-bottom:2em;
+      padding-top:1em;
+      // border-bottom: white solid;
+
+    .price{
+      padding-left:1em;
+
+      a{
+      font-family: 'Raleway', sans-serif;
+      }
+    }
+
+    .add{
+      padding-right:1em;
+    }
+
+    .add i:hover{
+        color: rgba(0,0,0,0.1);
+    }
+
+    .favorites i:hover{
+        color: $star-color;
+    }
+
+    .fave i{
+        color: $star-color;
+    }
+
+    .image{
+      width: 5em;
+      margin:auto;
+      // padding-bottom:2em;
+          
+      img{
+        display:block;
+        width:100%;
+      }
+    }
+
+    .image-left{
+          margin:0;
+        }
+
+ 
+}
+
+}
+
+
+
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width : 40em) {
+.main-menu{
+  display: flex;
+  // flex-wrap:wrap;
+
+
+  .description{
+    background-color:$bg-color;
+
+    h1{
+      width:90%;
+      margin:auto;
+      text-align:left;
+      color: $font-color3;
+      font-family: 'Raleway', sans-serif;
+      font-size:1.5em;
+      padding-top:1em;
+      margin:auto;
+    }
+
+    p{
+      width:90%;
+      margin:auto;
+      text-align:left;
+      color: $font-color3;
+      font-family: 'Raleway', sans-serif;
+      text-align:left;
+      padding-top:0.5em;
+      padding-bottom:2em;
+      font-size:0.8em;
+    }
+  }
+
+    .description-icons{
+      color: $font-color4;
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: space-between;
+      // padding-top:1em;
+      // border-bottom: white solid;
+
+    .price{
+      padding-left:1em;
+
+      a{
+      font-family: 'Raleway', sans-serif;
+      }
+    }
+
+    .add{
+      padding-right:1em;
+    }
+
+    .add i:hover{
+        color: rgba(0,0,0,0.1);
+    }
+
+    .favorites i:hover{
+        color: $star-color;
+    }
+
+    .image{
+      width: 5em;
+      margin:auto;
+          
+      img{
+        display:block;
+        width:100%;
+      }
+    }
+
+    .image-left{
+          margin:0;
+        }
+
+ 
+}
+
+}
+}
+
+
+
+/*for small tablet - exclusive - use with care*/
+
+@media only screen and (min-width : 40em) and (max-width : 59.99999em) {
+}
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width : 60em) {
+}
+
+
+
+/*for destop - inclusive*/
+
+@media only screen and (min-width : 80em) {
+}

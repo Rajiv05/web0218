@@ -1,0 +1,60 @@
+/* ==|====================
+   Login
+   ======================= */
+
+.logo{
+	margin:auto;
+}
+
+body{
+	// width:90%;
+	// margin: auto;
+}
+
+.buttons{
+	width:80%;
+	margin:auto;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+
+	div{
+		margin: 1em;
+
+		&:first-child {
+			margin-top: 0;
+
+		}
+
+		a {
+		width: 40%;
+		min-width: 7em;
+		display: block;
+		}
+	}
+}
+
+.nfc{
+	width:70%;
+	margin:auto;
+	text-align: center;
+
+	div{
+		margin:0.5em;
+
+		& p{
+			border:0.1em $font-color3 solid;
+			padding:1em;
+		}
+
+		&>a{
+			display:block;
+			padding-top:3em;
+			padding-bottom:2em;
+			color:$font-color2;
+		}
+
+		a:hover{
+			color:red;
+		}
+	}
+}

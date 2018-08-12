@@ -1,0 +1,49 @@
+/*
+ * SMACSS + SCSS starter v2.1
+ * Inspired by SMACSS http://smacss.com
+ * Author: @jonathanpath
+ * Date: 4 August 2015
+ *
+ * https://github.com/jonathanpath/SASS-SMACSS
+ * See file structure in http://jonathanpath.com/sass+smacss/scss/style.scss
+ *
+ * Coding rules : https://github.com/necolas/idiomatic-css
+ *
+ */
+
+/* Site settings */
+@import "site-settings";
+
+/* Vendor */
+//@import "vendor/bootstrap";
+//@import "vendor/foundation";
+
+/* Override */
+//@import "vendor-override/bootsrap";
+//@import "vendor-override/foundation";
+
+/* Base */
+@import "base";
+
+/* Layouts */
+// @import "layout/constrained";
+//@import "layout/header";
+
+@import "layout/header";
+@import "layout/login";
+@import "layout/top-section";
+@import "layout/footer";
+@import "layout/main-menu";
+@import "layout/logout";
+
+/* Modules */
+@import "modules/nav";
+@import "modules/services";
+@import "modules/footer";
+@import "modules/login";
+@import "modules/top-section";
+@import "modules/main-menu";
+@import "modules/logout";
+@import "modules/bottom-nav";
+@import "modules/points-home";
+

@@ -1,0 +1,25 @@
+/*All devices and mobile phone*/
+
+.page-heading{
+	padding-bottom:1em;
+
+	h1{
+		margin:auto;
+		text-align:center;
+		font-family: 'Raleway', sans-serif;
+		font-size:1.5em;
+		width:50%;
+		color: $font-color3;
+		border: 0.1em $font-color3 solid;
+	}
+
+}
+
+@media only screen and (min-width : 40em){
+
+.page-heading{
+	padding-bottom:3em;
+
+}	
+
+}

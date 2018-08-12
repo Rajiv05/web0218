@@ -1,0 +1,101 @@
+/* ==|====================
+   Module/Logout
+   ======================= */
+
+/*All devices and mobile phone*/
+
+.logo-layout{
+
+}
+
+
+.logo-logout{
+          width: 10em;
+          margin:auto;
+          padding-bottom:2em;
+          padding-top:0em;
+          
+          img{
+            display:block;
+            width:100%;
+          }
+        }
+
+.language{
+  padding-top:3em;
+
+  a:hover{
+      color: red;
+    } 
+}
+
+
+.logout-buttons{
+  width:80%;
+  margin:auto;
+  padding-bottom: 0.5em;
+  padding-top: 02em;
+
+  div{
+    margin: 1em;
+
+    &:first-child {
+      margin-top: 0;
+
+    }
+
+    a {
+      width: 40%;
+      min-width: 7em;
+      display: block;
+    }
+
+    a:hover{
+      color: rgba(0,0,0,0.1)
+    }   
+}
+}
+
+.logout{
+
+  .container{
+    width:40%
+
+    h1{
+      font-size:1em;
+    }
+  }
+
+}
+
+
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width : 40em) {
+
+  .logo-logout{
+    padding-top:6em;
+  }
+}
+
+
+
+/*for small tablet - exclusive - use with care*/
+
+@media only screen and (min-width : 40em) and (max-width : 59.99999em) {
+}
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width : 60em) {
+}
+
+
+
+/*for destop - inclusive*/
+
+@media only screen and (min-width : 80em) {
+}

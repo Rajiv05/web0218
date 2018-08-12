@@ -1,0 +1,121 @@
+/* ==|====================
+   Module/Login
+   ======================= */
+
+/*All devices and mobile phone*/
+
+.login{
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  .form-group{
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+}
+
+.container{
+  text-align: center;
+  margin: auto;
+  background-color: none;
+  font-family: 'Raleway', sans-serif;
+
+
+  label>span{
+    display: block;
+    font-weight: normal;
+    // color: #666;
+    font-size: 10px;
+    color: grey;
+  }
+
+  input[type=text]{
+    background-color: $header-color;
+    border: none;
+    border-bottom: 0.01em solid #000000;
+    // flex: 0 0 60%;
+    line-height: 30px;
+    width:80%;
+    padding-top:0.5em;
+    // font-family: 'Raleway', sans-serif;
+  }
+
+  .button{
+    // flex: 0 0 auto;
+    padding:0.7em;
+    border: 0.1em black solid;
+    // background-color: #fff;
+    // font-weight: bold;
+    text-transform: uppercase;
+    margin:auto;
+    // border: none;
+    // margin-top:15px;
+    text-decoration: none;
+    color:black;
+    font-size:1em;
+    // font-family: 'Raleway', sans-serif;
+  }
+
+  .buttons{
+    padding-top:1em;
+  }
+
+  .buttons a:hover{
+    color:$font-color3;
+  }
+
+
+}
+
+.logo{
+  padding-top: 2em;
+}
+
+.nfc{
+  text-align:center;
+  color:$font-color3;
+  font-family: 'Raleway', sans-serif;
+  line-height:1.5em;
+
+}
+
+.logo-login{
+          width: 10em;
+          margin:auto;
+          padding-bottom:1em;
+          padding-top:2em;
+          
+          img{
+            display:block;
+            width:100%;
+          }
+}
+
+
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width : 40em) {
+}
+
+
+
+/*for small tablet - exclusive - use with care*/
+
+@media only screen and (min-width : 40em) and (max-width : 59.99999em) {
+}
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width : 60em) {
+}
+
+
+
+/*for destop - inclusive*/
+
+@media only screen and (min-width : 80em) {
+}
